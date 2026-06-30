@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b28b76cb-cef7-4d0c-b627-0b2faf68dc8c" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/black/controller/PersonContorollerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/black/controller/PersonContoroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/black/controller/PersonContoroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/black/model/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1782739213718</updated>
       <workItem from="1782739215026" duration="5150000" />
-      <workItem from="1782806621094" duration="7132000" />
+      <workItem from="1782806621094" duration="8132000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -143,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782821797151</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1782822883974</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1782822883974</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
