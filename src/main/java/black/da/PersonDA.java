@@ -45,7 +45,20 @@ public class PersonDA {
 
     }
 
-    public void delete(int id) {
+    public void delete(int id) throws SQLException {
+        Connection connection = DriverManager.getConnection(
+                "jdbc:oracle:thin:@localhost:1521:xe",
+                "javase", "java123"
+        );
+
+        PreparedStatement preparedStatement = connection.prepareStatement(
+                "delete from persons where id=?"
+        );
+        preparedStatement.setInt(1, id);
+
+        preparedStatement.execute();
+        preparedStatement.close();
+        connection.close();
 
     }
 }

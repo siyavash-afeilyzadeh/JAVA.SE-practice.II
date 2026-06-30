@@ -7,6 +7,8 @@ import java.sql.SQLException;
 import java.text.ParseException;
 
 public class PersonDATest {
+
+    // Save Test
     //    public static void main(String[] args) throws SQLException {
 //        Person person = Person
 //                .builder()
@@ -21,17 +23,28 @@ public class PersonDATest {
 //    personDA.save(person);
 //    System.out.println("Person Saved Successfully");
 //    }
-    public static void main(String[] args) throws SQLException {
-        Person person = Person
-                .builder()
-                .id(1)
-                .name("Simon")
-                .family("McCry")
-                .age(83)
-                .build();
-        System.out.println(person);
+
+  //Update Test
+//    public static void main(String[] args) throws SQLException {
+//        Person person = Person
+//                .builder()
+//                .id(1)
+//                .name("Simon")
+//                .family("McCry")
+//                .age(83)
+//                .build();
+//        System.out.println(person);
+//
+//        PersonDA personDA = new PersonDA();
+//        personDA.update(person);
+//    }
+
+
+    //Delete Test
+    public static void main(String[] args) throws SQLException{
 
         PersonDA personDA = new PersonDA();
-        personDA.update(person);
+        personDA.delete(1);
     }
+
 }
