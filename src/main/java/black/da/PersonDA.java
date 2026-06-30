@@ -19,14 +19,29 @@ public class PersonDA {
         preparedStatement.setInt(1, person.getId());
         preparedStatement.setString(2, person.getName());
         preparedStatement.setString(3, person.getFamily());
-        preparedStatement.setInt(4,person.getAge());
+        preparedStatement.setInt(4, person.getAge());
 
         preparedStatement.execute();
         preparedStatement.close();
         connection.close();
     }
 
-    public void update(Person person) {
+    public void update(Person person) throws SQLException {
+        Connection connection = DriverManager.getConnection(
+                "jdbc:oracle:thin:@localhost:1521:xe",
+                "javase", "java123"
+        );
+        PreparedStatement preparedStatement = connection.prepareStatement(
+                "update persons set name=?, family=?, age=? where id=?"
+        );
+        preparedStatement.setString(1, person.getName());
+        preparedStatement.setString(2, person.getFamily());
+        preparedStatement.setInt(3, person.getAge());
+        preparedStatement.setInt(4, person.getId());
+
+        preparedStatement.execute();
+        preparedStatement.close();
+        connection.close();
 
     }
 
