@@ -41,12 +41,12 @@ public class PersonDATest {
 //    }
 
 
-    //Delete Test
-    public static void main(String[] args) throws SQLException{
-
-        PersonDA personDA = new PersonDA();
-        personDA.delete(1);
-        System.out.println("Person Removed Successfully");
-    }
+//    Delete Test
+//    public static void main(String[] args) throws SQLException{
+//
+//        PersonDA personDA = new PersonDA();
+//        personDA.delete(2);
+//        System.out.println("Person Removed Successfully");
+//    }
 
 }
