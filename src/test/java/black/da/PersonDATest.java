@@ -37,6 +37,7 @@ public class PersonDATest {
 //
 //        PersonDA personDA = new PersonDA();
 //        personDA.update(person);
+//    System.out.println("Person Updated Successfully");
 //    }
 
 
@@ -45,6 +46,7 @@ public class PersonDATest {
 
         PersonDA personDA = new PersonDA();
         personDA.delete(1);
+        System.out.println("Person Removed Successfully");
     }
 
 }
