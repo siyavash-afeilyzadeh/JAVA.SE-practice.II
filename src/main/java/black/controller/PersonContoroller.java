@@ -29,7 +29,7 @@ public class PersonContoroller {
                     .age(age)
                     .build();
             PersonBL personBL = new PersonBL();
-            personBL.save(person);
+            personBL.update(person);
             return "Successfully Updated";
         }catch (Exception e){
             return "ERROR " + e.getMessage();
