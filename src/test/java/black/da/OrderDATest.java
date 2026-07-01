@@ -5,7 +5,7 @@ import black.model.Order;
 import java.sql.SQLException;
 
 public class OrderDATest {
-    public static void main(String[] args) throws SQLException {
+//    public static void main(String[] args) throws SQLException {
 //        Order order = Order
 //                .builder()
 //                .id(1)
@@ -18,6 +18,6 @@ public class OrderDATest {
         OrderDA orderDA = new OrderDA();
 //        orderDA.save(order);
 //        orderDA.update(order);
-        orderDA.delete(1);
-    }
+//        orderDA.delete(1);
+//    }
 }

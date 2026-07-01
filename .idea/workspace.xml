@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b28b76cb-cef7-4d0c-b627-0b2faf68dc8c" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/black/bl/OrderBL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/black/bl/OrderBLTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/black/da/OrderDA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/black/da/OrderDA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/black/da/OrderDATest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/black/da/OrderDATest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.OrderBLTest.executor": "Run",
     "Application.OrderDATest.executor": "Run",
     "Application.PersonBLTest.executor": "Run",
     "Application.PersonContorollerTest.executor": "Run",
@@ -86,7 +88,8 @@
       <option name="presentableId" value="Default" />
       <updated>1782739213718</updated>
       <workItem from="1782739215026" duration="5150000" />
-      <workItem from="1782806621094" duration="10121000" />
+      <workItem from="1782806621094" duration="10798000" />
+      <workItem from="1782895192552" duration="5857000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -168,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782824726916</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1782825740734</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1782825740734</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
